@@ -11,4 +11,6 @@ object DependencyVersions {
     const val MOCKK_VERSION = "1.12.3"
     const val SPRING_MOCKK_VERSION = "3.1.1"
     const val NIMBUS_VERSION = "9.21"
+    const val VAULT_VERSION = "3.1.1"
+    const val SENTRY_VERSION = "6.5.0"
 }

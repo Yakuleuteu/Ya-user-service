@@ -54,4 +54,9 @@ object Dependencies {
 
     // cloud config
     const val CLOUD_CONFIG = "org.springframework.cloud:spring-cloud-config-client"
+    const val SPRING_VAULT_CONFIG = "org.springframework.cloud:spring-cloud-starter-vault-config:${DependencyVersions.VAULT_VERSION}"
+
+    // sentry
+    const val SENTRY =  "io.sentry:sentry-spring-boot-starter:${DependencyVersions.SENTRY_VERSION}"
+
 }
