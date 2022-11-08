@@ -1,5 +1,3 @@
-import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
-
 plugins {
     kotlin("jvm") version PluginVersions.JVM_VERSION
 }
@@ -22,6 +20,7 @@ subprojects {
         implementation(Dependencies.KOTLINX_COROUTINE)
         testImplementation(Dependencies.SPRING_TEST)
         testImplementation(Dependencies.COROUTINE_TEST)
+        implementation(Dependencies.SPRING_VAULT_CONFIG)
     }
 }
 
